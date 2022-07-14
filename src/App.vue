@@ -1,6 +1,7 @@
 <template>
+  <router-link to="/">Home</router-link>
+  <router-link to="/background">Background example</router-link>
   <router-view />
-  <p class="h-10 text-3xl font-semibold text-blue-600">Hell O 12345678</p>
 </template>
 
 <style>

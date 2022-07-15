@@ -3,6 +3,7 @@
     <router-link to="/">Home</router-link>
     <router-link to="/background">Background example</router-link>
     <router-link to="/vuexview">Vuex example</router-link>
+    <router-link to="/vuecomponent">Vue component example</router-link>
   </div>
 
   <router-view />

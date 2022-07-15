@@ -22,6 +22,18 @@ const routes: Array<RouteRecordRaw> = [
     component: () =>
       import(/* webpackChunkName: "backgroup" */ "../views/BackgroundView.vue"),
   },
+  {
+    path: "/animation",
+    name: "animation",
+    component: () =>
+      import(/* webpackChunkName: "animation" */ "../views/AnimationView.vue"),
+  },
+  {
+    path: "/vuexview",
+    name: "vuexview",
+    component: () =>
+      import(/* webpackChunkName: "vuexview" */ "../views/VuexView.vue"),
+  },
 ];
 
 const router = createRouter({

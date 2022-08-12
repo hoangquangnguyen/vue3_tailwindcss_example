@@ -4,6 +4,7 @@
     <router-link to="/background">Background example</router-link>
     <router-link to="/vuexview">Vuex example</router-link>
     <router-link to="/vuecomponent">Vue component example</router-link>
+    <router-link to="/buttonview">Buttonview</router-link>
   </div>
 
   <router-view />

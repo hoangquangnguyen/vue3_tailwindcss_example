@@ -5,6 +5,8 @@ module.exports = {
     extend: {
       backgroundImage:{
         "hell":"url('/src/assets/backgroundimage.jpg')",
+        "split-white-black": "linear-gradient(to bottom, #111827 60% , white 40%)",
+        
       }
     },
   },

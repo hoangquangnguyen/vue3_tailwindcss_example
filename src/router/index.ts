@@ -23,12 +23,6 @@ const routes: Array<RouteRecordRaw> = [
       import(/* webpackChunkName: "backgroup" */ "../views/BackgroundView.vue"),
   },
   {
-    path: "/animation",
-    name: "animation",
-    component: () =>
-      import(/* webpackChunkName: "animation" */ "../views/AnimationView.vue"),
-  },
-  {
     path: "/vuexview",
     name: "vuexview",
     component: () =>
@@ -41,6 +35,12 @@ const routes: Array<RouteRecordRaw> = [
       import(
         /* webpackChunkName: "vuecomponent" */ "../views/VueComponent.vue"
       ),
+  },
+  {
+    path: "/buttonview",
+    name: "buttonview",
+    component: () =>
+      import(/* webpackChunkName: "buttonview" */ "../views/ButtonView.vue"),
   },
 ];
 
